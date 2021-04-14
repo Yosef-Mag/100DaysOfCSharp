@@ -13,7 +13,8 @@ namespace Day4
         static void Main(string[] args)
         {
             Console.WriteLine(GetMiddle("test"));
-
+ 
+ 
              Console.ReadKey();
         }
     }
