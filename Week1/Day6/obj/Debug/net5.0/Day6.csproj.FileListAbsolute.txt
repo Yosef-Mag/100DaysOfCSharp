@@ -1,0 +1,16 @@
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.exe
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.deps.json
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.runtimeconfig.json
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.runtimeconfig.dev.json
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.dll
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\ref\Day6.dll
+D:\100DaysOfCSharp\Week1\Day6\bin\Debug\net5.0\Day6.pdb
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.csprojAssemblyReference.cache
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.GeneratedMSBuildEditorConfig.editorconfig
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.AssemblyInfoInputs.cache
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.AssemblyInfo.cs
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.csproj.CoreCompileInputs.cache
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.dll
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\ref\Day6.dll
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.pdb
+D:\100DaysOfCSharp\Week1\Day6\obj\Debug\net5.0\Day6.genruntimeconfig.cache
