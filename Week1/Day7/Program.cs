@@ -13,6 +13,7 @@ namespace Day7
         {
             Console.WriteLine(Vowelremover("goodbye"));
 
+
             Console.ReadKey();
         }
     }
