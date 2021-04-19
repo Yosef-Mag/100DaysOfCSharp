@@ -15,7 +15,7 @@ namespace Day2
    }        
     static void Main(string[] args)
         {
-            Console.WriteLine(Solution(10));
+            Console.WriteLine(Solution(20));
 
             Console.ReadKey();
         }
