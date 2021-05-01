@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6132adb752f474ba940be06ef04719, type: 3}
+  m_Name: A0.Introduction
+  m_EditorClassIdentifier: 
+  stortText: "Welcome to this game.\n\nIt's choose your own adcenture. Be careful
+    what you wish for!\n\nAt each stage you will be asked to press a key on the keyboard,
+    for example 1 or 2 or 3.  \n\nAt any point in time, press \"Q\" to quit."
+  nextStates:
+  - {fileID: 11400000, guid: a601fd11d4d4f274ebfb6cdbf988d322, type: 2}
