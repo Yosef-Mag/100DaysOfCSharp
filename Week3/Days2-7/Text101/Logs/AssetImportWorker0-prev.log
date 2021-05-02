@@ -15,11 +15,11 @@ D:/100DaysOfCSharp/Week3/Days2-7/Text101
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58181
+54877
 Successfully changed project path to: D:/100DaysOfCSharp/Week3/Days2-7/Text101
 D:/100DaysOfCSharp/Week3/Days2-7/Text101
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,117 +35,664 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001639 seconds.
+Registered in 0.001629 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
+- Completed reload, in  0.892 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000583 seconds.
+Registered in 0.000892 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
+- Completed reload, in  0.715 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.0 MB.
+System memory in use before: 84.9 MB.
 System memory in use after: 84.9 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 1.837500 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.509400 ms  DeleteObjects: 0.100100 ms)
+Total: 2.230400 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.100200 ms MarkObjects: 1.799700 ms  DeleteObjects: 0.115000 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/StartingState.asset
+  artifactKey: Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartingState.asset using Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb30cd67b2065f0cf0cf11b76264442') in 0.025377 seconds
+  Import took 0.028313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
   path: Assets/Room1.asset
   artifactKey: Guid(453cb5c67b2581b4eab6e1dda28b9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Room1.asset using Guid(453cb5c67b2581b4eab6e1dda28b9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbb4b83f9eef6d2cde2ff49de7c2537') in 0.024037 seconds
-  Import took 0.026603 seconds .
+Start importing Assets/Room1.asset using Guid(453cb5c67b2581b4eab6e1dda28b9689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9516d924d7ce3e1514c79d75903b314') in 0.001601 seconds
+  Import took 0.003655 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.718033 seconds.
+  Time since last request: 0.000146 seconds.
   path: Assets/Room2.asset
   artifactKey: Guid(3dc7c1b93902f8940a396158562f85e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Room2.asset using Guid(3dc7c1b93902f8940a396158562f85e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb11f8f4b24e94f44fa97951ee39a43') in 0.005166 seconds
-  Import took 0.007524 seconds .
+Start importing Assets/Room2.asset using Guid(3dc7c1b93902f8940a396158562f85e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b28d17964e734f85e078beb042d2a03') in 0.005516 seconds
+  Import took 0.007660 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000609 seconds.
+Registered in 0.000494 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.639 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.9 MB.
 System memory in use after: 84.9 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 1.623200 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.068600 ms MarkObjects: 1.262800 ms  DeleteObjects: 0.087000 ms)
+Total: 1.565200 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.059900 ms MarkObjects: 1.254800 ms  DeleteObjects: 0.079200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.461271 seconds.
+  path: Assets/State.cs
+  artifactKey: Guid(5f6132adb752f474ba940be06ef04719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/State.cs using Guid(5f6132adb752f474ba940be06ef04719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdecf5e40efb38f902f97e6d2a7a96de') in 0.005620 seconds
+  Import took 0.008127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.502981 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(48ea0a3d72e559647ad49792f95bc660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(48ea0a3d72e559647ad49792f95bc660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead9d2684c843d178af669c3cc349d0c') in 0.004151 seconds
+  Import took 0.006405 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000536 seconds.
+Registered in 0.000512 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.646 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.9 MB.
 System memory in use after: 84.9 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 1.764600 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.403600 ms  DeleteObjects: 0.091300 ms)
+Total: 1.776900 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.093800 ms MarkObjects: 1.334500 ms  DeleteObjects: 0.086600 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000471 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.641 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.0 MB.
-System memory in use after: 84.9 MB.
+Received Import Request.
+  Time since last request: 19.275593 seconds.
+  path: Assets/States
+  artifactKey: Guid(4b2393062a035cd4dbda1fbde2fb39c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States using Guid(4b2393062a035cd4dbda1fbde2fb39c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f537b6a1aa8a0d7caa303a15c53922f') in 0.006672 seconds
+  Import took 0.009117 seconds .
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 1.871000 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.539500 ms  DeleteObjects: 0.088600 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.002030 seconds.
+  path: Assets/States
+  artifactKey: Guid(4b2393062a035cd4dbda1fbde2fb39c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States using Guid(4b2393062a035cd4dbda1fbde2fb39c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f537b6a1aa8a0d7caa303a15c53922f') in 0.001864 seconds
+  Import took 0.004249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.745194 seconds.
+  path: Assets/A1.Outside Hanger.asset
+  artifactKey: Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/A1.Outside Hanger.asset using Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90cce2dd88bf4bddffae23cc048ba6c') in 0.009352 seconds
+  Import took 0.011743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.937096 seconds.
+  path: Assets/States/Intro
+  artifactKey: Guid(47324761e2099f54ba729aa434ee0c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Intro using Guid(47324761e2099f54ba729aa434ee0c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46661229c48d24e9dfd39ae5bbbb68c') in 0.005278 seconds
+  Import took 0.007544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.679039 seconds.
+  path: Assets/States/Game Over
+  artifactKey: Guid(eab19251495f6e54482ccb8c74a09b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Game Over using Guid(eab19251495f6e54482ccb8c74a09b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9326e77e4f55bf1d159198570514af') in 0.005171 seconds
+  Import took 0.007519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.133197 seconds.
+  path: Assets/States/Hangar
+  artifactKey: Guid(5a404c7b0a0e23c4ca8fd5e8d350fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar using Guid(5a404c7b0a0e23c4ca8fd5e8d350fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56283e98a3ffa8d9df6331210e3cbc1f') in 0.005282 seconds
+  Import took 0.007721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/States/Hangar
+  artifactKey: Guid(5a404c7b0a0e23c4ca8fd5e8d350fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar using Guid(5a404c7b0a0e23c4ca8fd5e8d350fe0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56283e98a3ffa8d9df6331210e3cbc1f') in 0.001165 seconds
+  Import took 0.003365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.783522 seconds.
+  path: Assets/States/Intro/Introdu.asset
+  artifactKey: Guid(16a521515707aef42a068f747917c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Intro/Introdu.asset using Guid(16a521515707aef42a068f747917c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20a217f0a78d60702a12ef56416c680') in 0.006211 seconds
+  Import took 0.008959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.585797 seconds.
+  path: Assets/States/Intro/A0.Introduction.asset
+  artifactKey: Guid(16a521515707aef42a068f747917c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Intro/A0.Introduction.asset using Guid(16a521515707aef42a068f747917c1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39fb6ba31ea66f345c2efcd9e413014') in 0.005598 seconds
+  Import took 0.008016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.873781 seconds.
+  path: Assets/States/Game Over/X1.Game Over.asset
+  artifactKey: Guid(9e2a86e612fd6ba4bbc19a282eae9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Game Over/X1.Game Over.asset using Guid(9e2a86e612fd6ba4bbc19a282eae9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3470a3b42aeca3aaf21de96fb8ec1f') in 0.005339 seconds
+  Import took 0.008182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 413.300553 seconds.
+  path: Assets/States/Hangar/A2.asset
+  artifactKey: Guid(66a25c5cb5913654e9c8f18861483113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2.asset using Guid(66a25c5cb5913654e9c8f18861483113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fdb994aca041c68481e97484cf66e7') in 0.005165 seconds
+  Import took 0.007899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.729356 seconds.
+  path: Assets/States/Hangar/A1.Outside Hanger.asset
+  artifactKey: Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A1.Outside Hanger.asset using Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8b39b672b585df4240d7442a4e3f5d') in 0.001452 seconds
+  Import took 0.003736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/States/Game Over/X1.Game Over.asset
+  artifactKey: Guid(9e2a86e612fd6ba4bbc19a282eae9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Game Over/X1.Game Over.asset using Guid(9e2a86e612fd6ba4bbc19a282eae9745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367ee4905077ade79cf0039b2f6abded') in 0.001520 seconds
+  Import took 0.003563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/States/Hangar/A2 1.asset
+  artifactKey: Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 1.asset using Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53688ce4c74f3e5dcc05c598267b115b') in 0.006124 seconds
+  Import took 0.008603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592112 seconds.
+  path: Assets/States/Hangar/A1.Outside Hanger.asset
+  artifactKey: Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A1.Outside Hanger.asset using Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769209316449716ba0bbb3ac7e1ce587') in 0.001346 seconds
+  Import took 0.003697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/States/Hangar/A2 2.asset
+  artifactKey: Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 2.asset using Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004eecf1b43dc9718580d623aea06f66') in 0.005685 seconds
+  Import took 0.007895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/States/Hangar/A1.Outside Hanger.asset
+  artifactKey: Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A1.Outside Hanger.asset using Guid(a601fd11d4d4f274ebfb6cdbf988d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769209316449716ba0bbb3ac7e1ce587') in 0.001306 seconds
+  Import took 0.003677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/States/Hangar/A2 1.asset
+  artifactKey: Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 1.asset using Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651da91e0d7d0066388174e0e80be5db') in 0.001498 seconds
+  Import took 0.003827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452524 seconds.
+  path: Assets/States/Hangar/A2 2.asset
+  artifactKey: Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 2.asset using Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21278310dad28e5f84d5ab4b105007ef') in 0.001326 seconds
+  Import took 0.003557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/States/Hangar/A2 3.asset
+  artifactKey: Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 3.asset using Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02aecafc172844fb906d477b7c199024') in 0.004936 seconds
+  Import took 0.007136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417224 seconds.
+  path: Assets/States/Hangar/A2 3.asset
+  artifactKey: Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 3.asset using Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed98571b398063b0ba4c17cfaafd17e') in 0.001366 seconds
+  Import took 0.003772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/States/Hangar/A2 4.asset
+  artifactKey: Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 4.asset using Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118dd7caa5150f9520cfe83ab2be0599') in 0.005897 seconds
+  Import took 0.008222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.747236 seconds.
+  path: Assets/States/Hangar/A2 4.asset
+  artifactKey: Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 4.asset using Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a245bcc435cbabea1c32a5677cdc361') in 0.001329 seconds
+  Import took 0.003787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/States/Hangar/A2 5.asset
+  artifactKey: Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 5.asset using Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18e07c515009387497413a9fcf4381f') in 0.006372 seconds
+  Import took 0.008652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.925987 seconds.
+  path: Assets/States/Hangar/A2 5.asset
+  artifactKey: Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 5.asset using Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094df26f02890267e9b5759a14828fc4') in 0.001315 seconds
+  Import took 0.003487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/States/Hangar/A2 6.asset
+  artifactKey: Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 6.asset using Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df371f6c4b9bf89a8fcf2a737771b46') in 0.005418 seconds
+  Import took 0.007703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.010121 seconds.
+  path: Assets/States/Hangar/A2 6.asset
+  artifactKey: Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 6.asset using Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7efcc2f8c5e2107f57364fc8152ada') in 0.001449 seconds
+  Import took 0.003696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/States/Hangar/A2 7.asset
+  artifactKey: Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 7.asset using Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349d37bca95d6c7b493b2cfe2b147020') in 0.005550 seconds
+  Import took 0.007774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589146 seconds.
+  path: Assets/States/Hangar/A2 7.asset
+  artifactKey: Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 7.asset using Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833777bf825f7b1349e5a5eda9ee7a79') in 0.001435 seconds
+  Import took 0.003672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/States/Hangar/A2 8.asset
+  artifactKey: Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 8.asset using Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932e48ff91afa8460d2ffffa8c9bbca5') in 0.004527 seconds
+  Import took 0.006668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.600871 seconds.
+  path: Assets/States/Hangar/A2 8.asset
+  artifactKey: Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 8.asset using Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed90d45a9da64beace7f4cdabdaacba') in 0.001348 seconds
+  Import took 0.003705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/States/Hangar/A2 9.asset
+  artifactKey: Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 9.asset using Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972ab559fa5e1617887abb6c4d428d2e') in 0.004297 seconds
+  Import took 0.006425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433522 seconds.
+  path: Assets/States/Hangar/A2 9.asset
+  artifactKey: Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 9.asset using Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a81b6b2944f29fe36ad9d7dd7062a7') in 0.001375 seconds
+  Import took 0.003635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/States/Hangar/A2 10.asset
+  artifactKey: Guid(07bce6a0a4dbf77479e6573ef8a407d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A2 10.asset using Guid(07bce6a0a4dbf77479e6573ef8a407d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c466e22b70394c6060f64be866bddbdc') in 0.004494 seconds
+  Import took 0.006654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.684075 seconds.
+  path: Assets/States/Hangar/A3.asset
+  artifactKey: Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A3.asset using Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf098757f26744190971285087fe277') in 0.004304 seconds
+  Import took 0.006688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.304472 seconds.
+  path: Assets/States/Hangar/A4.asset
+  artifactKey: Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A4.asset using Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550e58056e4b28cf92a94f9743ca96bd') in 0.004252 seconds
+  Import took 0.006944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.653899 seconds.
+  path: Assets/States/Hangar/A5.asset
+  artifactKey: Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A5.asset using Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dad5739750a1602fbd26c6c82afae8b') in 0.004685 seconds
+  Import took 0.007062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.925298 seconds.
+  path: Assets/States/Hangar/A6.asset
+  artifactKey: Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A6.asset using Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90e020fa7eca60e485085f3fda57f2e') in 0.004198 seconds
+  Import took 0.006589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.848398 seconds.
+  path: Assets/States/Hangar/A7.asset
+  artifactKey: Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A7.asset using Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bc9d2a358c4cce79aceee67c9b9d9d') in 0.004829 seconds
+  Import took 0.007207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.015991 seconds.
+  path: Assets/States/Hangar/A8.asset
+  artifactKey: Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A8.asset using Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d613593a983ee1202c93e0c052a1c9') in 0.004430 seconds
+  Import took 0.006931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.504832 seconds.
+  path: Assets/States/Hangar/A9.asset
+  artifactKey: Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A9.asset using Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9030fd9de55aedb067993903c8b25') in 0.004370 seconds
+  Import took 0.006942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.967473 seconds.
+  path: Assets/States/Hangar/a10.asset
+  artifactKey: Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/a10.asset using Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d02069a057910fbea1679bf9018e4ed') in 0.004303 seconds
+  Import took 0.006710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.590586 seconds.
+  path: Assets/States/Hangar/A11.asset
+  artifactKey: Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A11.asset using Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3f595e00f384117fa09d4f7d5c0378') in 0.004234 seconds
+  Import took 0.006711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.612547 seconds.
+  path: Assets/States/Hangar/A10.asset
+  artifactKey: Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A10.asset using Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29540744442648c643f55f8c6a155806') in 0.004440 seconds
+  Import took 0.006745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.235335 seconds.
+  path: Assets/States/Hangar/B1.asset
+  artifactKey: Guid(0999be04bb057ad4bace7e821a85c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1.asset using Guid(0999be04bb057ad4bace7e821a85c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf38b385724a6648563c215b043d0ae') in 0.004358 seconds
+  Import took 0.006753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.644333 seconds.
+  path: Assets/States/Hangar/A3.asset
+  artifactKey: Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A3.asset using Guid(f7a4ea8d812968047b6155ddad617dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd178091c47b6b22d73271b35d3d53524') in 0.001410 seconds
+  Import took 0.003639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/States/Hangar/A8.asset
+  artifactKey: Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A8.asset using Guid(e14164174b4b47645b568ea8a8349ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbee8f10ca8b0a977de3dac2852b3cf') in 0.001237 seconds
+  Import took 0.003223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/States/Hangar/A7.asset
+  artifactKey: Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A7.asset using Guid(6244db4fd8eafa841b9f502179e34194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d3fd24a3bf9488367088181c223204') in 0.001299 seconds
+  Import took 0.003358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/States/Hangar/A4.asset
+  artifactKey: Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A4.asset using Guid(751e73c5a55514e4c9546da551ae44eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbadfcaf3f1c1f9c7a2a980d02f5c12') in 0.001331 seconds
+  Import took 0.003421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/States/Hangar/A6.asset
+  artifactKey: Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A6.asset using Guid(97c4a36cdaf07dc48bc4fe370d63b0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6349e54fc97764a4fd9d9aae8d5bee84') in 0.001417 seconds
+  Import took 0.003525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/States/Hangar/A5.asset
+  artifactKey: Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A5.asset using Guid(f58664f1bcebdb14dbf62915fbdea5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d5d5a07c594f378a69335c96ca1009') in 0.001230 seconds
+  Import took 0.003363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/States/Hangar/A9.asset
+  artifactKey: Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A9.asset using Guid(5918f13b5021ccc4aa56588b200dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e9c10296ff20ef08b99d1c2313a875') in 0.001281 seconds
+  Import took 0.003229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/States/Hangar/A10.asset
+  artifactKey: Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A10.asset using Guid(3abdb5246fcaa2840a571ffd3ab89add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d801749b11a9b873ea4c0bc233500') in 0.001308 seconds
+  Import took 0.003337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/States/Hangar/A11.asset
+  artifactKey: Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/A11.asset using Guid(8701a36a660b12c469b4402d030ebbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4fc6274f49c071286240d09c09eb29') in 0.001225 seconds
+  Import took 0.003264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/States/Hangar/B1 1.asset
+  artifactKey: Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 1.asset using Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58901048fff0b2cfbe3a27d5590066a0') in 0.004410 seconds
+  Import took 0.006746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.603214 seconds.
+  path: Assets/States/Hangar/B1 1.asset
+  artifactKey: Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 1.asset using Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bdb700f03ca1031c3c5eea521319cf') in 0.001326 seconds
+  Import took 0.003575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/States/Hangar/B1 2.asset
+  artifactKey: Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 2.asset using Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1206caa16267287300b56fed9df2c43b') in 0.004612 seconds
+  Import took 0.006948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.723775 seconds.
+  path: Assets/States/Hangar/B1 2.asset
+  artifactKey: Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 2.asset using Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c40462284a162f96bab5150af778a14') in 0.001313 seconds
+  Import took 0.003797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/States/Hangar/B1 3.asset
+  artifactKey: Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 3.asset using Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc508544b6be7e34dde69a539eb998') in 0.004364 seconds
+  Import took 0.006528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.887394 seconds.
+  path: Assets/States/Hangar/B1 3.asset
+  artifactKey: Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 3.asset using Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d637fcbcc4cb0ad3215b1d46d209727') in 0.001801 seconds
+  Import took 0.004069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/States/Hangar/B1 4.asset
+  artifactKey: Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 4.asset using Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdef950475a5d71b44f7835309c5c82') in 0.004891 seconds
+  Import took 0.007024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567092 seconds.
+  path: Assets/States/Hangar/B1 4.asset
+  artifactKey: Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 4.asset using Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19b0ce98ef4ea9f3cd0c660f3369b3c') in 0.001356 seconds
+  Import took 0.003632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/States/Hangar/B1 5.asset
+  artifactKey: Guid(ef19034da7544664aa28128521927eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B1 5.asset using Guid(ef19034da7544664aa28128521927eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d71b610d017aa0b4ccbb296c950af59') in 0.004494 seconds
+  Import took 0.006655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.750183 seconds.
+  path: Assets/States/Hangar/B2.asset
+  artifactKey: Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B2.asset using Guid(8d0bf3202b75f3149b201ec6d883562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b79e699cd400ad3d5bf6c514cd0a2') in 0.004588 seconds
+  Import took 0.006958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.212167 seconds.
+  path: Assets/States/Hangar/B3.asset
+  artifactKey: Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B3.asset using Guid(aa373bdbb69e9d440956fb242ad6fb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2159e681d64429633efe341b16def386') in 0.004985 seconds
+  Import took 0.007280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.532525 seconds.
+  path: Assets/States/Hangar/B4.asset
+  artifactKey: Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B4.asset using Guid(ac49d0cd086428049ae8c993c8b302a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c2a4fe249b658334688c7f5ac5b15b') in 0.004622 seconds
+  Import took 0.006917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.207130 seconds.
+  path: Assets/States/Hangar/B5.asset
+  artifactKey: Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B5.asset using Guid(c7419e08c46aa0d4787807e0d169c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02949f248f27eac5bc483561f9eb106') in 0.004540 seconds
+  Import took 0.006842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.111941 seconds.
+  path: Assets/States/Hangar/B6.asset
+  artifactKey: Guid(ef19034da7544664aa28128521927eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/States/Hangar/B6.asset using Guid(ef19034da7544664aa28128521927eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497b41edf4b1886f5dd16a63450c922c') in 0.004542 seconds
+  Import took 0.006832 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
